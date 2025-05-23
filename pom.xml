@@ -1,0 +1,24 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.uaz</groupId>
+  <artifactId>Formulario</artifactId>
+  <version>1.0</version>
+  <packaging>war</packaging>
+  
+  <!-- Añade esto para forzar detección en Render -->
+  <build>
+    <finalName>Formulario</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.2</version>
+      </plugin>
+    </plugins>
+  </build>
+  
+  <properties>
+    <java.version>17</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+</project>
